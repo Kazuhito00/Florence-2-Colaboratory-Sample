@@ -6,6 +6,22 @@ Microsoft の軽量VLMである[microsoft/Florence-2](https://huggingface.co/mic
 Colaboratoryでノートブックを開き、上から順に実行してください。<br>
 com/masamitsu-murase/deform_conv2d_onnx_exporter)
 
+# Task
+* CAPTION：キャプション
+* DETAILED_CAPTION：詳細なキャプション
+* MORE_DETAILED_CAPTION：より詳細なキャプション
+* OD：物体検出
+* DENSE_REGION_CAPTION：高密度領域キャプション
+* REGION_PROPOSAL：領域提案
+* CAPTION_TO_PHRASE_GROUNDING：キャプションからフレーズへの接地
+* OPEN_VOCABULARY_DETECTION：オープンボキャブラリー物体検出
+* REFERRING_EXPRESSION_SEGMENTATION：参照セグメンテーション
+* REGION_TO_SEGMENTATION：領域指定セグメンテーション
+* REGION_TO_CATEGORY：領域→カテゴリー
+* REGION_TO_DESCRIPTION：領域→説明
+* OCR：単純OCR
+* OCR_WITH_REGION：領域検出OCR
+
 # Author
 高橋かずひと(https://twitter.com/KzhtTkhs)
  
