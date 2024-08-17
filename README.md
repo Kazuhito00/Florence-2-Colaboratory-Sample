@@ -22,6 +22,27 @@ com/masamitsu-murase/deform_conv2d_onnx_exporter)
 * OCR：単純OCR
 * OCR_WITH_REGION：領域検出OCR
 
+# Processing time reference
+Google Colaboratory T4 GPU 上での処理時間計測結果(%%time使用)<Br>
+1600x1066の画像を入力
+
+| タスク | 処理時間目安 |
+| --- | --- |
+| CAPTION | CPU times: user 420 ms, sys: 1.1 ms, total: 421 ms<br>Wall time: 421 ms | 
+| DETAILED_CAPTION | CPU times: user 978 ms, sys: 4.15 ms, total: 982 ms<br>Wall time: 981 ms | 
+| MORE_DETAILED_CAPTION | CPU times: user 1.66 s, sys: 7.85 ms, total: 1.67 s<br>Wall time: 2.48 s | 
+| OD | CPU times: user 2.3 s, sys: 7.84 ms, total: 2.31 s<br>Wall time: 2.3 s | 
+| DENSE_REGION_CAPTION | CPU times: user 5.54 s, sys: 14.5 ms, total: 5.56 s<br>Wall time: 5.55 s | 
+| REGION_PROPOSAL | CPU times: user 1.61 s, sys: 5.18 ms, total: 1.62 s<br>Wall time: 1.66 s | 
+| CAPTION_TO_PHRASE_GROUNDING | CPU times: user 729 ms, sys: 2.96 ms, total: 732 ms<br>Wall time: 730 ms | 
+| OPEN_VOCABULARY_DETECTION | CPU times: user 700 ms, sys: 962 µs, total: 701 ms<br>Wall time: 698 ms | 
+| REFERRING_EXPRESSION_SEGMENTATION | CPU times: user 8.37 s, sys: 10.7 ms, total: 8.38 s<bR>Wall time: 8.45 s | 
+| REGION_TO_SEGMENTATION | CPU times: user 6.58 s, sys: 16.7 ms, total: 6.6 s<br>Wall time: 6.61 s | 
+| REGION_TO_CATEGORY | CPU times: user 341 ms, sys: 52 µs, total: 341 ms<br>Wall time: 339 ms | 
+| REGION_TO_DESCRIPTION | CPU times: user 426 ms, sys: 1.91 ms, total: 428 ms<br>Wall time: 424 ms | 
+| OCR | CPU times: user 917 ms, sys: 22 µs, total: 917 ms<br>Wall time: 914 ms | 
+| OCR_WITH_REGION | CPU times: user 2.99 s, sys: 10.5 ms, total: 3 s<br>Wall time: 3.09 s | 
+
 # Author
 高橋かずひと(https://twitter.com/KzhtTkhs)
  
