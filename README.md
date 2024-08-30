@@ -4,7 +4,6 @@ Microsoft の軽量VLMである[microsoft/Florence-2](https://huggingface.co/mic
 # Usage
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Kazuhito00/Florence-2-Colaboratory-Sample/blob/main/Florence-2-Colaboratory-Sample.ipynb)<br>
 Colaboratoryでノートブックを開き、上から順に実行してください。<br>
-com/masamitsu-murase/deform_conv2d_onnx_exporter)
 
 # Task
 * CAPTION：キャプション
